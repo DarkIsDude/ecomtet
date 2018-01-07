@@ -8,12 +8,10 @@ RUN gem install jekyll
 RUN apt-get update && apt-get -y autoremove && apt-get clean
 
 RUN mkdir /app/
-
 COPY . /app/
+WORKDIR /app/
 
 RUN bundle install
 
 VOLUME "/app/"
 EXPOSE 4000
-
-WORKDIR /app/
