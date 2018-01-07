@@ -7,4 +7,4 @@ This repository contains code for ecomtet.com website.
 * `docker build -t ecomtet .`
 * `docker run --name ecomtet -it -p 4000:4000 -v /Users/doudou/Workspaces/ecomtet.git:/app/ ecomtet ping 8.8.8.8`
 * `docker exec -it ecomtet bash`
-* `bundle exec jekyll serve --host 0.0.0.0 --watch --livereload`
+* `jekyll serve --host 0.0.0.0 --watch --livereload`
