@@ -18,4 +18,4 @@ Il est prévu de développer cette application sur Android et d’apporter un pe
 
 * [Le Studio](https://www.le-studio-lille.fr)
 
-![Le Studio de Polytech Lille devient mobile]({{ "/assets/2014-01-07-studiomobile.jpeg" | absolute_url }})
+![Le Studio de Polytech Lille devient mobile]({{ "/assets/posts/2014-01-07-studiomobile.jpeg" | absolute_url }})
