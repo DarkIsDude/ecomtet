@@ -1,19 +1,11 @@
-FROM ruby:2.5
+FROM jekyll/jekyll
 
 LABEL MAINTAINER="Edouard COMTET<edouard.comtet@gmail.com>"
 LABEL version="1.0"
 
-RUN apt-get update
-RUN gem install jekyll
-RUN apt-get update && apt-get -y autoremove && apt-get clean
-
-RUN mkdir /app/
-COPY . /app/
-WORKDIR /app/
-
+COPY . /srv/jekyll
 RUN bundle install
 
-VOLUME "/app/"
 EXPOSE 4000
 
-CMD "bundle exec jekyll serve --host 0.0.0.0"
+CMD [ "jekyll", "serve" ]
