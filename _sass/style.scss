@@ -1,11 +1,16 @@
 .social-network {
   text-align: center;
 
-  h1 {
-    float: right;
+  h3 {
+    display: inline-block;
+    margin: 10px;
 
     i {
       display: block;
     }
   }
+}
+
+.page-heading {
+  clear: both;
 }
