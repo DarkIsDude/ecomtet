@@ -1,0 +1,50 @@
+image: docker:latest
+
+stages:
+    - build
+    - test
+    - deploy
+
+services:
+    - docker:17.09-dind
+
+variables:
+    IMAGE_TAG: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}
+
+# -------------
+# Build process
+Build:
+    stage: build
+    script:
+        - docker login -u gitlab-ci-token -p ${CI_JOB_TOKEN} ${CI_REGISTRY}
+        - (docker pull ${IMAGE_TAG} 2> /dev/null) && echo $!
+        - docker build --cache-from ${IMAGE_TAG} -t ${IMAGE_TAG} .
+        - docker push ${IMAGE_TAG}
+    only:
+        - branches
+
+# -------------
+# Test process
+Test:
+    image: ${IMAGE_TAG}
+    stage: test
+    script:
+        - bundle install
+        - npm install
+    only:
+        - branches
+
+# -------------
+# Deploy
+Deploy to PROD:
+    image: cdrx/rancher-gitlab-deploy
+    stage: deploy
+    variables:
+        RANCHER_URL: "http://ecomtet.com:8000"
+        RANCHER_ACCESS_KEY: "${RANCHER_ACCESS_KEY}"
+        RANCHER_SECRET_KEY: "${RANCHER_SECRET_KEY}"
+    script:
+        - upgrade --environment EComtet --stack website --service jekyll --start-before-stopping
+    only:
+        - master
+    environment: production
