@@ -30,7 +30,6 @@ Test:
     stage: test
     script:
         - bundle install
-        - npm install
     only:
         - branches
 
