@@ -3,16 +3,22 @@ layout: page
 title: About
 permalink: /about/
 ---
+# Pourquoi ecomtet.com ?
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Le site a été développé pendant mse débuts dans l'informatique pour permettre de partager efficacement mes connaissances et mes expèriences. EComtet fait référence à mon nom et mon prénom (Edouard COMTET).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Qui s'occupe du site ?
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Pour le moment je m'occupe seul de l'administration et de la gestion du site.
 
+# Comment cette page est affichée ?
 
-[jekyll-organization]: https://github.com/jekyll
+Le site sur lequel vous êtes est propulsé par plusieurs technologies (hébergé sur gitlab et github):
+
+* [jekyll][jekyll-organization] /
+* [minima](https://github.com/jekyll/minima)
+
+Le déploiement se fait grâce à l'image docker suivante sur un serveur Rancher:
+
+* [cdrx/rancher-gitlab-deploy](https://store.docker.com/community/images/cdrx/rancher-gitlab-deploy)
+* [rancher](http://rancher.com)

@@ -1,5 +1,7 @@
 # ecomtet
 
+This repository contains code for ecomtet.com website.
+
 ## Helpers Commands
 
 * `docker build -t ecomtet .`
