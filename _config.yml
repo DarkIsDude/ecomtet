@@ -45,3 +45,4 @@ kramdown:
   hard_wrap: false
 
 plugins: ['jekyll-paginate']
+include: ['_pages']
