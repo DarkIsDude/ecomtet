@@ -12,7 +12,10 @@ url: "https://ecomtet.com/" # the base hostname & protocol for your site, e.g. h
 author:
   name: 'Edouard COMTET'
   email: edouard.comtet@gmail.com
+  cv: true
+  gitlab_username:  DarkIsDude
   twitter_username: DarkIsDude
+  medium_username: darkIsDude
   github_username:  DarkIsDude
   linkedin_username:  comtet-edouard-87b84870
 
