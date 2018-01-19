@@ -3,13 +3,13 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 
-<header class="panel-cover" style="background-image: url({{ "/assets/cover.jpg" | absolute_url }})">
+<header class="panel-cover" style="background-image: url({{ "/assets/cover.jpg" }})">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
       <div class="panel-main__content">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
-          <img src="{{ "/assets/profile.jpg" | absolute_url }}" class="user-image" alt="My Profile Photo">
+          <img src="{{ "/assets/profile.jpg" }}" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
@@ -90,7 +90,7 @@
             {% if site.author.cv %}
               <!-- CV -->
               <li class="navigation__item">
-                <a href="{{ "/assets/cv/latest.pdf" | absolute_url }}" title="CV {{ site.author.email }}" target="_blank">
+                <a href="{{ "/assets/cv/latest.pdf" }}" title="CV {{ site.author.email }}" target="_blank">
                   <i class="icon fas fa-file-pdf"></i>
                   <span class="label">CV</span>
                 </a>
