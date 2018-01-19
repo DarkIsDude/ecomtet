@@ -16,7 +16,7 @@ Pour le moment je m'occupe seul de l'administration et de la gestion du site.
 Le site sur lequel vous êtes est propulsé par plusieurs technologies (hébergé sur gitlab et github):
 
 * [jekyll][jekyll-organization] /
-* [minima](https://github.com/jekyll/minima)
+* [uno](https://github.com/joshgerdes/jekyll-uno/)
 
 Le déploiement se fait grâce à l'image docker suivante sur un serveur Rancher:
 

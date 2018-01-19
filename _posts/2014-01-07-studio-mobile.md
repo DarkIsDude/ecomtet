@@ -2,7 +2,8 @@
 layout: post
 title: "Le Studio de Polytech Lille devient mobile"
 date: 2014-01-07 17:08:31 +0000
-categories: portfolio
+categories: [portfolio]
+tags: [studio,mobile,ios,phone,application,xcode,swift]
 ---
 # Présentation
 
