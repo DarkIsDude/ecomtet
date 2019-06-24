@@ -19,6 +19,13 @@ I will not explain you how to use Visual Studio Code, but I'll share with you so
 
 This one is the magic plugin ! I tried an another one : `PHP IntelliSense` but I don't know why, the autocompletion feature don't work with our main project @Hosco. If you want to work with PHP in VSCode, you should give a try to this plugin.
 
+## Auto Rename Tag
+
+- Description: Auto rename paired HTML/XML tag
+- Version: 0.1.0
+- Publisher: Jun Han
+- VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+
 ## Beautify
 
 - Description: Beautify code in place for VS Code
@@ -75,6 +82,13 @@ I don't use it a lot, but when I use it, it's very powerful.
 - VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go
 
 Since Go modules, I'm a big fan of Go... And you?
+
+## IntelliSense for CSS class names in HTML
+
+- Description: CSS class name completion for the HTML class attribute based on the definitions found in your workspace.
+- Version: 1.19.0
+- Publisher: Zignd
+- VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion
 
 ## Kubernetes
 
