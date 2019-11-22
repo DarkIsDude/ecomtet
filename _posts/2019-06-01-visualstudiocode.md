@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VSCode extensions"
-date: 2018-09-26 21:31:53 +0000
+date: 2019-06-01 21:31:53 +0000
 categories: [blog]
 tags: [blog,code,vscode,visual studio code,extensions,hosco,feedback]
 ---
