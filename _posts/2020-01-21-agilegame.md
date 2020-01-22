@@ -42,7 +42,7 @@ During this first round, the first message came late. Why? Because the specifier
 
 > __tips__ If after ~7 min, no message comes, you can put some pressure on the specifiers.
 
-![Round1]({{ "/assets/posts/2020-01-agilegame/1.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-1.jepg" }})
 
 This first round aimed to explore the traditional approach. Each team specialised in one thing and there wasn’t a lot of communication. The specifiers needed to complete everything for anyone else to move forwards. Artists blamed the specifiers for the delay, forgetting that they were all one team.
 
@@ -56,7 +56,7 @@ After this first round, I asked each team to take five minutes to debrief (a min
 
 ## Round 2 🤩
 
-![Round1]({{ "/assets/posts/2020-01-agilegame/2.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-2.jepg" }})
 
 This second round was more active. The messenger ran a lot and messages started being sent earlier. We had more and more communication and a lot of interactions.
 
@@ -75,7 +75,7 @@ We are always afraid to ask the customer about their priorities and deadlines. W
 
 After this agile game, we planned to do a raclette so...
 
-![Round1]({{ "/assets/posts/2020-01-agilegame/3.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-3.jepg" }})
 
 In this round, some teams came to me to ask:
 
@@ -121,12 +121,12 @@ The key themes we covered in this game were:
 
 [My inspiration](https://oyomy.fr/2017/11/artistes-et-specifieurs-experimenter-les-principes-agile/)
 
-![Round1]({{ "/assets/posts/2020-01-agilegame/10.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/11.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/12.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/13.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/14.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/15.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/16.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/17.jepg" }})
-![Round1]({{ "/assets/posts/2020-01-agilegame/18.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-10.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-11.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-12.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-13.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-14.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-15.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-16.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-17.jepg" }})
+![Round1]({{ "/assets/posts/2020-01-21-agilegame-18.jepg" }})
