@@ -17,8 +17,3 @@ Le site sur lequel vous êtes est propulsé par plusieurs technologies (héberg�
 
 * [jekyll](jekyll-organization)
 * [uno](https://github.com/joshgerdes/jekyll-uno/)
-
-Le déploiement se fait grâce à l'image docker suivante sur un serveur Rancher:
-
-* [cdrx/rancher-gitlab-deploy](https://store.docker.com/community/images/cdrx/rancher-gitlab-deploy)
-* [rancher](http://rancher.com)

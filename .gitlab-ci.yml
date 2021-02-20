@@ -32,18 +32,3 @@ Test:
         - bundle install
     only:
         - branches
-
-# -------------
-# Deploy
-Deploy to PROD:
-    image: cdrx/rancher-gitlab-deploy
-    stage: deploy
-    variables:
-        RANCHER_URL: "http://ecomtet.com:8000"
-        RANCHER_ACCESS_KEY: "${RANCHER_ACCESS_KEY}"
-        RANCHER_SECRET_KEY: "${RANCHER_SECRET_KEY}"
-    script:
-        - upgrade --environment EComtet --stack website --service jekyll --start-before-stopping
-    only:
-        - master
-    environment: production
